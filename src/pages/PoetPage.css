@@ -1,0 +1,67 @@
+.poet-page {
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
+}
+
+.books-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.books-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book-card h4 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: inherit;
+}
+
+.book-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.dark .book-card {
+  background-color: #222;
+  color: white;
+}
+
+.light .book-card {
+  background-color: #f0f0f0;
+  color: black;
+}
